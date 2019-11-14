@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.name                  = 'PropertyWrapper'
     s.version               = '0.0.1'
     s.ios.deployment_target = '11.0'
-    s.license               = 'MIT'
+    s.license               = { :type => 'MIT', :file => 'LICENSE' }
     s.homepage              = 'https://github.com/iwheelbuy/PropertyWrapper'
     s.author                = { 'iwheelbuy' => 'iwheelbuy@protonmail.com' }
     s.source                = { :git => 'https://github.com/iwheelbuy/PropertyWrapper.git', :tag => s.version.to_s }
