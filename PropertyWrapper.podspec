@@ -2,7 +2,7 @@
 # git push origin 0.0.1
 # pod lib lint PropertyWrapper.podspec --no-clean --verbose --allow-warnings
 # pod spec lint PropertyWrapper.podspec --allow-warnings
-# pod trunk push PropertyWrapper.podspec --verbose
+# pod trunk push PropertyWrapper.podspec --verbose --allow-warnings
 
 Pod::Spec.new do |s|
 
