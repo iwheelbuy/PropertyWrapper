@@ -40,3 +40,17 @@ extension CopyOnWrite: Decodable where Value: Decodable {
         self.init(value)
     }
 }
+
+extension CopyOnWrite: Equatable where Value: Equatable {
+
+    public static func ==(lhs: Self, rhs: Self) -> Bool {
+        return lhs.reference.value == rhs.reference.value
+    }
+}
+
+extension CopyOnWrite: Hashable where Value: Hashable {
+
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(self.reference.value)
+    }
+}
