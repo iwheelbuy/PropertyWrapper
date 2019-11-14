@@ -1,6 +1,6 @@
 # git tag 0.0.1
 # git push origin 0.0.1
-# pod lib lint PropertyWrapper.podspec --no-clean --verbose
+# pod lib lint PropertyWrapper.podspec --no-clean --verbose --allow-warnings
 # pod spec lint PropertyWrapper.podspec --allow-warnings
 # pod trunk push PropertyWrapper.podspec --verbose
 
