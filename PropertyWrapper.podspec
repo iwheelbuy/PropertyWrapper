@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.license               = 'MIT'
     s.homepage              = 'https://github.com/iwheelbuy/PropertyWrapper'
     s.author                = { 'iwheelbuy' => 'iwheelbuy@protonmail.com' }
-    s.source                = { :git => 'git@github.com:iwheelbuy/PropertyWrapper.git', :tag => s.version.to_s }
+    s.source                = { :git => 'https://github.com/iwheelbuy/PropertyWrapper.git', :tag => s.version.to_s }
     s.summary               = 'Collection of useful Swift PropertyWrappers'
     s.cocoapods_version     = '>= 1.8.4'
     s.source_files          = '**/*.swift'
