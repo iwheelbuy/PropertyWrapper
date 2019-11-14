@@ -1,3 +1,4 @@
+# git fetch --prune origin "+refs/tags/*:refs/tags/*"
 # git tag 0.0.1
 # git push origin 0.0.1
 # pod lib lint PropertyWrapper.podspec --no-clean --verbose --allow-warnings
